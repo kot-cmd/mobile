@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="libs/slick/slick.css">
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -22,8 +23,11 @@
                     </a>
                 </div>
                 <nav class="menu">
-                    <button class="menu__btn">
-                    </button>
+                    
+                        <a data-fancybox data-src="#modal" href="javascript:;">
+                            <button class="menu__btn">
+                            </button>
+                        </a>
                 </nav>
             </div>
         </div>
@@ -350,7 +354,16 @@
         </div>
     </section>
 
+    <div id="modal">
+        <form>
+            <input type="text" placeholder="Ваше  имя">
+            <input type="text" placeholder="Ваш  телефон">
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="libs/fancybox/jquery.fancybox.min.js"></script>
     <script src="libs/slick/slick.js"></script>
     <script src="js/main.js"></script>
 </body>

@@ -43,7 +43,7 @@ p {
 body {
     min-width: 320px;
     overflow-x: hidden;
-    font-family: 'Roboto-Regular', 'Arial', 'sans-serif';
+    font-family: "Roboto-Regular", "Arial", "sans-serif";
     font-weight: 400;
     font-size: 16px;
     color: $default-color;
@@ -112,6 +112,23 @@ body {
         margin-left: 0px;
     }
 }
+#modal {
+    width: 300px;
+}
+
+#modal input {
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 10px;
+    font-weight: 400;
+}
+
+#modal input[type="submit"] {
+    background-color: #ffc222;
+    border: none;
+}
 
 .menu__btn {
     width: 40px;
@@ -155,7 +172,7 @@ body {
         min-height: 193px;
     }
     &__title {
-        font-family: 'RobotoCondensed-Regular';
+        font-family: "RobotoCondensed-Regular";
         line-height: 28px;
         font-size: 28px;
         font-weight: 400;
@@ -267,7 +284,7 @@ body {
         }
         &__text {
             padding: 25px 0 32px;
-            font-family: 'RobotoCondensed-Regular';
+            font-family: "RobotoCondensed-Regular";
             line-height: 20px;
             font-size: 18px;
             font-weight: 500;
@@ -625,7 +642,7 @@ body {
 .project {
     text-align: center;
     padding: 20px 0;
-    background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0) 100%);
+    background: linear-gradient(180deg, #2b4074 0%, rgba(43, 64, 116, 0) 100%);
     &__title {
         color: #fff;
         margin-bottom: 40px;
@@ -652,9 +669,9 @@ body {
         justify-content: center;
         opacity: 0;
         min-height: 227px;
-        transition: all .5s;
+        transition: all 0.5s;
         border-radius: 4px;
-        background-color: rgba($bg-color, .83);
+        background-color: rgba($bg-color, 0.83);
     }
     &__item-info,
     &__item-search {
@@ -874,7 +891,7 @@ body {
     padding: 20px 0;
     background: $bg-color;
     &__title {
-        color: #4A4A4A;
+        color: #4a4a4a;
         margin-bottom: 40px;
         &::after {
             background-color: $accent;
@@ -899,10 +916,10 @@ body {
         align-items: center;
         justify-content: center;
         min-height: 427px;
-        transition: all .5s;
+        transition: all 0.5s;
         border-radius: 4px;
         background: rgba(107, 176, 113, 0.3);
-        border: 10px solid #6BB071;
+        border: 10px solid #6bb071;
         opacity: 0;
     }
     &__item-info,
